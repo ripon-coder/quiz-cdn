@@ -1,0 +1,108 @@
+.fl-right{
+	float: right;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+input[type="time"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1
+}
+.edit-del-btn{
+  padding: 4px 11px;
+}
+.ti-slice, .ti-trash,.ti-plus{
+  color: white;
+}
+.jconfirm-hilight-shake{
+  background: #3a474d !important;
+  color: white;
+}
+
+/*kowser*/
+.indentity-txt {
+  font-size: 16px;
+  color: #448aff;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-control.inactive {
+  border: none;
+  padding: 0;
+}
+.form-control.active {
+  border: 1px solid #cccccc;
+  padding: 5px 10px;
+  margin: 0 10px; 
+}
+.cansel-q, .edit-q{
+  padding: 5px 11px;  
+}
+.cansel-q {
+  display: none;
+}
+.bk-active{
+  color: chartreuse;
+  cursor: pointer;
+}
+.bk-dactive{
+  color: cyan;
+  cursor: pointer;
+}
+.answerdQuestion{
+  font-size: 18px;
+  padding: 10px;
+}
+.answerdQuestion span{
+  color: #11deb8;
+}
+.userImg{
+    border-radius: 100%;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+}
+.userInfo {
+  padding: 20px;
+}
+.userInfo p{
+  font-size: 17px;
+  margin: 2px;
+}
+.userInfo span{
+  color: #36bd26;
+}
+.bck-btn{
+  margin-left: 6px;
+}
+.ti-eye{
+  color:white;
+}
+.inact_cont{
+  color: #ffe100;
+  padding: 5px;
+  cursor: pointer;
+}
+.act_cont{
+  color: #448aff;
+  padding: 5px;
+  cursor: pointer;
+}
+.logoImgCss{
+  width: 100px;
+  height: 100px;
+}
